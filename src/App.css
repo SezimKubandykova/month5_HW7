@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.hiddenMenu {
+  transition: 0.5s;
+  position: absolute;
+  top: 30px;
+  left: -100%;
+  box-sizing: border-box;
+  width: 100%;
+  background: #ccc;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.activeMenu {
+  transition: 0.5s;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  background: #ccc;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.isActive {
+  color: red;
+}
+
